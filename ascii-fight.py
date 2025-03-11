@@ -115,6 +115,9 @@ print("RULES\nto attack, press 1.\nto defend, press 2.\nafter each 10s, you will
 print("\n")
 time.sleep(7)
 clearScreen()
+print("wait for the characters to finish dancing before typing...")
+time.sleep(1.2)
+clearScreen()
 threading.Timer(1, updateHealInterval).start() 
 threading.Timer(20, jeffreyHealthUp).start() 
 while hp > 0 and enemy > 0:
