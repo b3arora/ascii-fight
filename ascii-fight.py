@@ -74,7 +74,9 @@ def updateHealInterval():
 
 def jeffreyHealthUp():
     global healCountdown
+    global enemy
     enemy += 1
+    return enemy
     threading.Timer(20, jeffreyHealthUp).start() 
 
 
