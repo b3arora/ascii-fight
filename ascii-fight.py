@@ -193,10 +193,10 @@ while hp > 0 and enemy > 0:
                 print("\033[12;1Hcorrect! 2hp gained")
                 time.sleep(0.5)
                 whichBinary += 1
-                if hp >= 6:
-                    hp += 1
+                if hp <= 6:
+                    hp += 2
                 else:
-                    hp += 7 - hp
+                    hp += 8 - hp
             else:
                 print("\033[12;1Hunlucky. -1hp.")
                 time.sleep(0.5)
