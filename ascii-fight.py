@@ -113,7 +113,7 @@ if start == True and characterPicked == False:
 print("\n")
 print("RULES\nto attack, press 1.\nto defend, press 2.\nafter each 10s, you will be able press 3 to solve for \nthe denary value of a binary number\nsolve correctly and gain 2hp, or fail and lose 1hp\njeffrey's health will recieve +1hp every 20s \n\nattack strength will be randomised")
 print("\n")
-time.sleep(5)
+time.sleep(7)
 clearScreen()
 threading.Timer(1, updateHealInterval).start() 
 threading.Timer(20, jeffreyHealthUp).start() 
