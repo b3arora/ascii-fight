@@ -132,7 +132,7 @@ while hp > 0 and enemy > 0:
         print("\033[1;20H" + hps[abs(8 - enemy)])
     print("\033[11;1H\033[2K")
     print("\033[12;1H\033[2K")
-    decision = input("\033[10;1Hattack or defend? ")
+    decision = input("\033[10;1Hattack, defend or heal? ")
     if decision == "1":
         startAttack = True
         attack = random.randint(0,3)
